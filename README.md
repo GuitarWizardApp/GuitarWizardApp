@@ -1,16 +1,13 @@
-## Hi there 👋
+# Guitar Wizard — Light GitHub Pages (Landscape, flipped)
 
-<!--
-**GuitarWizardApp/GuitarWizardApp** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+- Base background: `#F0EFEB`
+- Screenshots: landscape, flipped 180° (as requested)
+- Video: flipped 180° via CSS (`--video-rotate: 180deg`)
+- Support/Privacy email: guitarwizardapp@gmail.com
+- Privacy effective date: December 19, 2025
 
-Here are some ideas to get you started:
+## Publish
+Repo → Settings → Pages → Deploy from a branch → `main` / `(root)`.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## If your video is NOT upside down
+Set `--video-rotate: 0deg;` in `assets/style.css`.
