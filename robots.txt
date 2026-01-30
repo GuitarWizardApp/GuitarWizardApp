@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://guitarwizardapp.github.io/GuitarWizardApp/sitemap.xml

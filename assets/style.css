@@ -81,19 +81,27 @@ a{color:inherit}
 .hero__meta{display:flex;gap:10px;flex-wrap:wrap;margin-top:18px}
 .pill{border:1px solid var(--line);background:rgba(255,255,255,.05);padding:8px 10px;border-radius:999px;font-size:var(--step--1);color:var(--muted)}
 
-.device{
-  width:min(560px,100%);margin-left:auto;border-radius:26px;
-  background:rgba(255,255,255,.05);border:1px solid var(--line);
-  box-shadow:var(--shadow);overflow:hidden
+/* Hero screenshot with frame:
+   frame thickness = paragraph font size (lead uses --step-1). */
+.heroShot{
+  width:min(760px,100%);
+  margin-left:auto;
+  font-size: var(--step-1);     /* sets 1em used below */
+  padding: .25em;              /* frame thickness (quarter) */
+  border-radius: 28px;
+  border: 1px solid var(--line);
+  background: rgba(255,255,255,.04);
+  box-shadow: var(--shadow);   /* shadow comes from the frame */
 }
-.device__bar{display:flex;align-items:center;justify-content:space-between;padding:12px 14px;background:rgba(255,255,255,.04);border-bottom:1px solid var(--line)}
-.dots{display:flex;gap:7px}
-.dot{width:10px;height:10px;border-radius:999px;background:rgba(255,255,255,.14)}
-.device__title{font-size:13px;font-weight:780;color:rgba(255,255,255,.70)}
+.heroShot img{
+  display:block;
+  width:100%;
+  height:auto;
+  border-radius: 18px;
+  border: 1px solid rgba(255,255,255,.10);
+  background: var(--surface2);
+}
 .badge{font-size:12px;font-weight:780;padding:7px 10px;border-radius:999px;border:1px solid rgba(10,132,255,.35);background:rgba(10,132,255,.12)}
-.device__screen{padding:12px;background:transparent}
-.previewShot{border-radius:20px;border:1px solid var(--line);overflow:hidden;background:var(--surface2)}
-.previewShot img{display:block;width:100%;height:auto}
 
 .section{padding:54px 0}
 .section--alt{background:rgba(255,255,255,.03);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
