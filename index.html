@@ -4,8 +4,8 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Guitar Wizard — Scales, Modes & Fretboard Practice</title>
-  <meta name="description" content="Interactive scales & modes on the fretboard. Transpose instantly, hear arpeggios, customize tuning, and practice improvisation." />
-  <meta name="theme-color" content="#F0EFEB" />
+  <meta name="description" content="Interactive guitar fretboard for scales & modes. Find matching scales, practice exercises, chords & harmony, tuner, and rhythm sequencer/metronome (polyrhythms & polymeters)." />
+  <meta name="theme-color" content="#0B0F14" />
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
   <link rel="apple-touch-icon" href="assets/icons/icon.png" />
   <link rel="stylesheet" href="assets/style.css" />
@@ -23,7 +23,7 @@
       <nav class="nav" aria-label="Primary">
         <a class="nav__link" href="#features">Features</a>
         <a class="nav__link" href="#screens">Screens</a>
-        <a class="nav__link" href="#video">Video</a>
+        <a class="nav__link" href="#videos">Videos</a>
         <a class="nav__link" href="support.html">Support</a> 
         <a class="nav__link" href="guide.html">User Guide</a>
         <a class="nav__link" href="privacy.html">Privacy</a>
@@ -42,7 +42,7 @@
         <div>
           <p class="eyebrow">Minimal UI. Maximum clarity.</p>
           <h1 class="h1">Learn the fretboard. Build scales. Improvise better.</h1>
-          <p class="lead">Guitar Wizard is an interactive scale builder for guitar: tap notes on the neck, reset fast, transpose instantly, explore a scale library, and hear the arpeggio.</p>
+          <p class="lead">Guitar Wizard is an interactive guitar fretboard for building scales and modes, finding matching scales, practicing exercises, exploring chords & harmony, tuning your guitar, and training rhythm.</p>
 
           <div class="hero__actions">
             <a class="btn btn--primary" href="#" aria-label="https://apps.apple.com/is/app/guitar-wizard/id6756327671">Download</a>
@@ -52,9 +52,9 @@
           </div>
 
           <div class="hero__meta">
-            <div class="pill">Scale library + detection</div>
-            <div class="pill">Custom guitar tuning</div>
-            <div class="pill">Interval panel</div>
+            <div class="pill">Matching Scales</div>
+            <div class="pill">Practice mode</div>
+            <div class="pill">Rhythm sequencer + metronome</div>
           </div>
         </div>
 
@@ -67,10 +67,7 @@
             </div>
             <div class="device__screen">
               <div class="previewShot">
-                <picture>
-                  <source srcset="assets/screens/main.webp" type="image/webp" />
-                  <img src="assets/screens/main.jpg" alt="Guitar Wizard main fretboard UI (landscape)" loading="eager" />
-                </picture>
+                <img src="assets/screens/main_ionian.png" alt="Guitar Wizard main fretboard UI (landscape)" loading="eager" />
               </div>
             </div>
           </div>
@@ -87,10 +84,10 @@
         <div class="grid">
           <article class="card reveal"><h3 class="h3">Interactive scale builder</h3><p>Tap to toggle notes on the fretboard and build any scale or mode.</p></article>
           <article class="card reveal"><h3 class="h3">Transpose instantly</h3><p>Move any pattern to any key — only the pitch changes, relationships stay the same.</p></article>
-          <article class="card reveal"><h3 class="h3">Scale library + identification</h3><p>Browse modes or “spell” a scale and let the app recognize it.</p></article>
+          <article class="card reveal"><h3 class="h3">Matching Scales + detection</h3><p>Find scales and modes that contain your selected notes, and detect the closest match.</p></article>
           <article class="card reveal"><h3 class="h3">Hear the arpeggio</h3><p>Play the arpeggio preview for the selected scale/mode.</p></article>
-          <article class="card reveal"><h3 class="h3">Practice sector mode</h3><p>Long‑press to highlight a focused neck section and master one area at a time.</p></article>
-          <article class="card reveal"><h3 class="h3">Custom tuning</h3><p>Set alternate tunings and instantly see how notes map across the neck.</p></article>
+          <article class="card reveal"><h3 class="h3">Practice mode</h3><p>Guided fretboard exercises and patterns with tempo and loop controls.</p></article>
+          <article class="card reveal"><h3 class="h3">Chords, harmony & rhythm</h3><p>Explore chords and circle of fifths, and train timing with a rhythm sequencer + metronome.</p></article>
         </div>
       </div>
     </section>
@@ -98,78 +95,121 @@
     <section id="screens" class="section section--alt">
       <div class="wrap">
         <h2 class="h2">Screens</h2>
-        <p class="sublead">Real UI — displayed in landscape orientation (flipped 180° as requested).</p>
+        <p class="sublead">Real UI — displayed in landscape orientation.</p>
         <div class="shots">
 <figure class="shot reveal">
-  <picture>
-    <source srcset="assets/screens/scales_menu.webp" type="image/webp" />
-    <img class="shot__img" src="assets/screens/scales_menu.jpg" alt="Scales menu screenshot" loading="lazy" />
-  </picture>
-  <figcaption class="shot__cap"><strong>Scales menu.</strong> Browse modes and apply instantly.</figcaption>
+  <img class="shot__img" src="assets/screens/main_ionian.png" alt="Main fretboard screenshot" loading="lazy" />
+  <figcaption class="shot__cap"><strong>Main fretboard.</strong> Build scales and modes directly on the neck.</figcaption>
 </figure>
 <figure class="shot reveal">
-  <picture>
-    <source srcset="assets/screens/tuning.webp" type="image/webp" />
-    <img class="shot__img" src="assets/screens/tuning.jpg" alt="Tuning screenshot" loading="lazy" />
-  </picture>
-  <figcaption class="shot__cap"><strong>Tuning.</strong> Customize tuning for your guitar setup.</figcaption>
+  <img class="shot__img" src="assets/screens/scale2_phrygian.png" alt="Scale tools screenshot" loading="lazy" />
+  <figcaption class="shot__cap"><strong>Scale 2.</strong> Compare two selections side by side.</figcaption>
 </figure>
 <figure class="shot reveal">
-  <picture>
-    <source srcset="assets/screens/info_practice.webp" type="image/webp" />
-    <img class="shot__img" src="assets/screens/info_practice.jpg" alt="Scale practice mode screenshot" loading="lazy" />
-  </picture>
-  <figcaption class="shot__cap"><strong>Scale practice mode.</strong> Long‑press to lock a practice sector.</figcaption>
+  <img class="shot__img" src="assets/screens/left_handed_minor_pentatonic.png" alt="Left-handed mode screenshot" loading="lazy" />
+  <figcaption class="shot__cap"><strong>Left‑handed mode.</strong> Mirror the fretboard for left‑handed playing.</figcaption>
 </figure>
 <figure class="shot reveal">
-  <picture>
-    <source srcset="assets/screens/info_tonic.webp" type="image/webp" />
-    <img class="shot__img" src="assets/screens/info_tonic.jpg" alt="Tonic (Home base) screenshot" loading="lazy" />
-  </picture>
-  <figcaption class="shot__cap"><strong>Tonic (Home base).</strong> Set the tonic and everything relates to it.</figcaption>
+  <img class="shot__img" src="assets/screens/tune_tuner.png" alt="Tuner screenshot" loading="lazy" />
+  <figcaption class="shot__cap"><strong>Tune.</strong> Mic tuner for pitch detection.</figcaption>
 </figure>
 <figure class="shot reveal">
-  <picture>
-    <source srcset="assets/screens/info_touch.webp" type="image/webp" />
-    <img class="shot__img" src="assets/screens/info_touch.jpg" alt="Touch & gestures screenshot" loading="lazy" />
-  </picture>
-  <figcaption class="shot__cap"><strong>Touch & gestures.</strong> Tap, double‑tap, drag — fast controls.</figcaption>
+  <img class="shot__img" src="assets/screens/harmony_circle_of_fifths.png" alt="Harmony screenshot" loading="lazy" />
+  <figcaption class="shot__cap"><strong>Harmony.</strong> Circle of fifths + chords in context.</figcaption>
 </figure>
 <figure class="shot reveal">
-  <picture>
-    <source srcset="assets/screens/info_transpose.webp" type="image/webp" />
-    <img class="shot__img" src="assets/screens/info_transpose.jpg" alt="Transposition screenshot" loading="lazy" />
-  </picture>
-  <figcaption class="shot__cap"><strong>Transposition.</strong> Move patterns to any key, keep relationships.</figcaption>
+  <img class="shot__img" src="assets/screens/chords_controls.png" alt="Chord builder controls screenshot" loading="lazy" />
+  <figcaption class="shot__cap"><strong>Chord Builder.</strong> Build chords, explore voicings, and adjust neck position.</figcaption>
 </figure>
 <figure class="shot reveal">
-  <picture>
-    <source srcset="assets/screens/info_sound.webp" type="image/webp" />
-    <img class="shot__img" src="assets/screens/info_sound.jpg" alt="What is sound screenshot" loading="lazy" />
-  </picture>
-  <figcaption class="shot__cap"><strong>What is sound.</strong> Simple foundations for beginners.</figcaption>
+  <img class="shot__img" src="assets/screens/chords_builder_bdim.png" alt="Chord preview screenshot" loading="lazy" />
+  <figcaption class="shot__cap"><strong>Chord preview.</strong> See tones on the neck and play the chord.</figcaption>
 </figure>
 <figure class="shot reveal">
-  <picture>
-    <source srcset="assets/screens/info_scales.webp" type="image/webp" />
-    <img class="shot__img" src="assets/screens/info_scales.jpg" alt="Scales are note collections screenshot" loading="lazy" />
-  </picture>
-  <figcaption class="shot__cap"><strong>Scales are note collections.</strong> Scales are notes + relationships, not shapes.</figcaption>
+  <img class="shot__img" src="assets/screens/rhythm_quick_play.png" alt="Rhythm quick play screenshot" loading="lazy" />
+  <figcaption class="shot__cap"><strong>Rhythm.</strong> Quick play controls for tempo and feel.</figcaption>
+</figure>
+<figure class="shot reveal">
+  <img class="shot__img" src="assets/screens/rhythm_polyrhythm_layers.png" alt="Polyrhythm layers screenshot" loading="lazy" />
+  <figcaption class="shot__cap"><strong>Polyrhythms & polymeters.</strong> Layer meters and tracks for advanced timing practice.</figcaption>
+</figure>
+<figure class="shot reveal">
+  <img class="shot__img" src="assets/screens/rhythm_editor.png" alt="Rhythm editor screenshot" loading="lazy" />
+  <figcaption class="shot__cap"><strong>Sequencer editor.</strong> Edit patterns, steps, and accents.</figcaption>
 </figure>
         </div>
       </div>
     </section>
 
-    <section id="video" class="section">
+    <section id="videos" class="section">
       <div class="wrap">
-        <h2 class="h2">Promo video (optional)</h2>
-        <div class="videoCard reveal">
-          <div class="videoFrame">
-            <video controls playsinline muted preload="none" poster="assets/screens/main.jpg">
-              <source src="assets/promo.mp4" type="video/mp4" />
-            </video>
+        <h2 class="h2">Videos</h2>
+        <p class="sublead">Add videos to <code>website/assets/videos/</code> (MP4 or MOV). Missing videos are hidden automatically.</p>
+        <div class="shots">
+          <div class="videoCard reveal">
+            <div class="videoFrame">
+              <video controls playsinline muted preload="metadata" poster="assets/screens/main_ionian.png">
+                <source src="assets/videos/ScalesMatching.mp4" type="video/mp4" />
+                <source src="assets/videos/ScalesMatching.mov" type="video/quicktime" />
+              </video>
+            </div>
+            <div class="videoNote">Matching Scales</div>
           </div>
-</div>
+          <div class="videoCard reveal">
+            <div class="videoFrame">
+              <video controls playsinline muted preload="metadata" poster="assets/screens/scale2_phrygian.png">
+                <source src="assets/videos/Scale2.mp4" type="video/mp4" />
+                <source src="assets/videos/Scale2.mov" type="video/quicktime" />
+              </video>
+            </div>
+            <div class="videoNote">Scale 2</div>
+          </div>
+          <div class="videoCard reveal">
+            <div class="videoFrame">
+              <video controls playsinline muted preload="metadata" poster="assets/screens/main_ionian.png">
+                <source src="assets/videos/Practice.mp4" type="video/mp4" />
+                <source src="assets/videos/Practice.mov" type="video/quicktime" />
+              </video>
+            </div>
+            <div class="videoNote">Practice</div>
+          </div>
+          <div class="videoCard reveal">
+            <div class="videoFrame">
+              <video controls playsinline muted preload="metadata" poster="assets/screens/rhythm_polyrhythm_layers.png">
+                <source src="assets/videos/Rhythm.mp4" type="video/mp4" />
+                <source src="assets/videos/Rhythm.mov" type="video/quicktime" />
+              </video>
+            </div>
+            <div class="videoNote">Rhythm (polyrhythms & polymeters)</div>
+          </div>
+          <div class="videoCard reveal">
+            <div class="videoFrame">
+              <video controls playsinline muted preload="metadata" poster="assets/screens/chords_builder_bdim.png">
+                <source src="assets/videos/Chords.mp4" type="video/mp4" />
+                <source src="assets/videos/Chords.mov" type="video/quicktime" />
+              </video>
+            </div>
+            <div class="videoNote">Chords</div>
+          </div>
+          <div class="videoCard reveal">
+            <div class="videoFrame">
+              <video controls playsinline muted preload="metadata" poster="assets/screens/harmony_circle_of_fifths.png">
+                <source src="assets/videos/Hamony.mp4" type="video/mp4" />
+                <source src="assets/videos/Hamony.mov" type="video/quicktime" />
+              </video>
+            </div>
+            <div class="videoNote">Harmony</div>
+          </div>
+          <div class="videoCard reveal">
+            <div class="videoFrame">
+              <video controls playsinline muted preload="metadata" poster="assets/screens/tune_tuner.png">
+                <source src="assets/videos/Tuning.mp4" type="video/mp4" />
+                <source src="assets/videos/Tuning.mov" type="video/quicktime" />
+              </video>
+            </div>
+            <div class="videoNote">Tune / Tuning</div>
+          </div>
+        </div>
       </div>
     </section>
   </main>
